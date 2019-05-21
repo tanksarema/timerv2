@@ -1,1 +1,2 @@
-# timerv2
+# timer
+Pomodoro technique timer
