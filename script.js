@@ -12,37 +12,37 @@ function gettimefromURL(){
 function changedot() {
     var d = new Date();
     var n = d.getTime();
-    if (n > (starttime + (onemin * 30))) {
+    if (n > (starttime + (onemin *  0.0083*5))) {
         document.getElementById("dot5").style.color = grey;
         document.body.style.backgroundColor = black;
         setStartTime();
     }
-    else if (n > (starttime + (onemin * 29))) {
+    else if (n > (starttime + (onemin *  0.0083*4))) {
         document.getElementById("dot4").style.color = grey;
     }
-    else if (n > (starttime + (onemin * 28))) {
+    else if (n > (starttime + (onemin *  0.0083*3))) {
         document.getElementById("dot3").style.color = grey;
     }
-    else if (n > (starttime + (onemin * 27))) {
+    else if (n > (starttime + (onemin *  0.0083*2))) {
         document.getElementById("dot2").style.color = grey;
     }
-    else if (n > (starttime + (onemin * 26))) {
+    else if (n > (starttime + (onemin *  0.0083))) {
         document.getElementById("dot1").style.color = grey;
     }
-    else if (n > (starttime + (onemin * 25))) {
+    else if (n > (starttime + (onemin * 0.016*5))) {
         document.getElementById("dot5").style.color = black;
         document.body.style.backgroundColor = grey;
     }
-    else if (n > (starttime + (onemin * 20))) {
+    else if (n > (starttime + (onemin * 0.016*4))) {
         document.getElementById("dot4").style.color = black;
     }
-    else if (n > (starttime + (onemin * 15))) {
+    else if (n > (starttime + (onemin * 0.016*3))) {
         document.getElementById("dot3").style.color = black;
     }
-    else if (n > (starttime + (onemin * 10))) {
+    else if (n > (starttime + (onemin *  0.016*2))) {
         document.getElementById("dot2").style.color = black;
     }
-    else if (n > (starttime + (onemin * 5))) {
+    else if (n > (starttime + (onemin *  0.016))) {
         document.getElementById("dot1").style.color = black;
     }
 }
