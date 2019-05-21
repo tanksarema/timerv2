@@ -52,5 +52,5 @@ function setStartTime() {
     starttime = d.getTime();
     check = setInterval(changedot, 5000);
     gettimefromURL();
-    document.getElementById("startbutton").style.visibility = "hidden"; 
+    document.getElementById("startbutton").style.color = black; 
 }
